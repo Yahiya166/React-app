@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Header{
+  background-color: aqua;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.Footer{
+  /* background-color: red; */
+  background-color: #e9e9e9;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading{
+  margin-left:  600px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.btn{
+  margin-left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Logo{
+  background-color: brown;
+}
+
+
+.nav-link{
+  margin-left:  350px;
+  font-size: 20px;
+}
+
+
+
+.btnn{
+  margin: 5px;
+  margin-left: 20px;
+}
+
+
+
+/* .btn1,.btn2{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  margin-top: 10px;
+  cursor: pointer;
+transition: 0.8s;
+position: relative;
+overflow: hidden;
+} */
+
+.btn1,.btn2{
+  color: #fff;
+  /* color: #3498db; */
+}
+
+
+/* .btn2{
+  color: #fff;
+} */
+
+.btn1:hover{
+  color: #3498db;
+  /* color: #fff; */
+}
+
+
+.btn2:hover{
+  color: #3498db;
+}
+
+/* .btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 0px;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+
+.btn1::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn2::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+} */
+
+
+
+
+
+.btnnn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  margin: 10px;
+  transition: 0.8;
+  color: #3498db;
 }
